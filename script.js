@@ -43,20 +43,20 @@ In this Basic Data Structures course, you'll learn more about the differences be
 
 ////////////////////////////////////////
 //  ? Remove Items from an Array with pop() and shift()
-// function popShift(arr) {
-//   let popped = arr.pop(); // Change this line
-//   let shifted = arr.shift(); // Change this line
-//   return [shifted, popped];
-// }
+function popShift(arr) {
+  let popped = arr.pop(); // Change this line
+  let shifted = arr.shift(); // Change this line
+  return [shifted, popped];
+}
 
-// console.log(popShift(['challenge', 'is', 'not', 'complete']));
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
 ////////////////////////////////////////
 
 ////////////////////////////////////////
 //  ? Remove Items Using splice()
-// const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
 // // Only change code below this line
-// arr.splice(1, 4);
+arr.splice(1, 4);
 // // Only change code above this line
 // console.log(arr);
 ////////////////////////////////////////
@@ -70,15 +70,15 @@ In this Basic Data Structures course, you'll learn more about the differences be
 //   return arr;
 // }
 
-// console.log(
-//   htmlColorNames([
-//     'DarkGoldenRod',
-//     'WhiteSmoke',
-//     'LavenderBlush',
-//     'PaleTurquoise',
-//     'FireBrick',
-//   ])
-// );
+console.log(
+  htmlColorNames([
+    'DarkGoldenRod',
+    'WhiteSmoke',
+    'LavenderBlush',
+    'PaleTurquoise',
+    'FireBrick',
+  ])
+);
 ////////////////////////////////////////
 
 ////////////////////////////////////////
@@ -112,13 +112,13 @@ In this Basic Data Structures course, you'll learn more about the differences be
 
 ////////////////////////////////////////
 // ? Combine Arrays with the Spread Operator
-// function spreadOut() {
-//   let fragment = ['to', 'code'];
-//   let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
-//   return sentence;
-// }
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
+  return sentence;
+}
 
-// console.log(spreadOut());
+console.log(spreadOut());
 ////////////////////////////////////////
 
 ////////////////////////////////////////
